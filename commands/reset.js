@@ -17,7 +17,7 @@ module.exports = {
           // se existirem mensagens do usuario...
           usrMessages.deleteAll() // remove todas as mensagens
           message.member.removeRole(message.guild.roles.find('name', 'Apresentado')) // remove o cargo/role
-          message.reply('sua apresentação foi removida!') // envia uma mensagem
+          message.reply('você não esta mais apresentado!') // envia uma mensagem
         } else {
           // se nao existirem mensagens do usuario...
           message.member.removeRole(message.guild.roles.find('name', 'Apresentado')) // remove o cargo/role

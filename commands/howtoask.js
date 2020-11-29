@@ -11,7 +11,7 @@ module.exports = {
     // Criando embed que sera enviado para o usuário
     let embed = {
       title: `Como Perguntar 📝`,
-      description: '1. Descreva seu problema de forma simples e objetiva.\n2. Sempre que compartilhar algum código use as tags de *Markdown* apropriadas.\n\n**Link:** [Markdown](https://gist.github.com/Almeeida/41a664d8d5f3a8855591c2f1e0e07b19#code-blocks)',
+      description: '1. Descreva seu problema de forma simples e objetiva.\n2. Sempre que compartilhar algum código use as tags de *Markdown* apropriadas.',
       color: 0xB1103C
     }
 

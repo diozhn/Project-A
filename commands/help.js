@@ -8,10 +8,10 @@ module.exports = {
     /** Objeto embed que irá ser enviado. */
     let embed = {
       color: 0xB1103C,
-      title: 'PROJECT: A - Lista de comandos',
-      url: 'https://github.com/Liga-dos-Programadores/Project-A',
+      title: 'Oi, eu sou a Saturday e esses são os meus comandos!',
+      url: 'https://github.com/diozhn/saturday-bot',
       footer: {
-        text: 'Não se esqueça de checar nosso código-fonte | 2020 ®Liga dos Programadores'
+        text: 'Sou feita com base no Project A da Liga dos Programadores!'
       },
       fields: []
     }

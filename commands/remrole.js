@@ -31,7 +31,7 @@ module.exports = {
       return message.reply(`Você não possui esse cargo!`)
     } else {
       message.member.removeRole(role)
-      return message.reply(`**beep boop!** Agora você não possui mais o cargo **${role.name}**`)
+      return message.reply(`**Minha nossa!** Agora você não possui mais o cargo **${role.name}**`)
     }
   },
 

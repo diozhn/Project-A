@@ -27,11 +27,11 @@ module.exports = {
       .addField('**Nickname**', `${member.nickname !== null ? `Nickname: ${member.nickname}` : 'Nenhum'}`, true)
       .addField('**Bot**', `${bot}`, inline, true)
       .addField('**Status**', `${status[member.user.presence.status]}`, inline, true)
-      .addField('**Jogando**', `${member.user.presence.game ? `${member.user.presence.game.name}` : ' Nada'}`, inline, true)
+      .addField('**Jogando**', `${member.user.presence.activities ? `${member.user.presence.activities.name}` : ' Nada'}`, inline, true)
       .addField('**Cargos**', `${member.roles.filter(r => r.id !== message.guild.id).map(roles => `\`${roles.name}\``).join(' **|** ') || 'Nenhum cargo'}`, true)
       .addField('**Entrou no Discord em**', formatDate('DD/MM/YYYY, às HH:mm:ss', member.user.createdAt))
       .addField('**Entrou no servidor em**', formatDate('DD/MM/YYYY, às HH:mm:ss', member.joinedAt))
-      .setFooter(`2020 © Liga dos Programadores.`)
+      .setFooter(`Saturday dizendo.`)
       .setTimestamp()
     message.channel.send(embed)
   },
